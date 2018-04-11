@@ -15,16 +15,16 @@ public class Level1 {
 			
 			for(int g = 0; g < anzahlMuenzen; g++) {
 				geldEinwerfen += muenzen[g];
-				if (betrag < geldEinwerfen) {
-					 int diff1 = geldEinwerfen - betrag;
-					System.out.println("CHANGE: " + diff1);
-				}
+				
 			}
 			if (geldEinwerfen < betrag) {
 				int diff2 = betrag - geldEinwerfen;
 				System.out.println("MISSING: " + diff2);
 			}
-		
+			if (betrag < geldEinwerfen) {
+				 int diff1 = geldEinwerfen - betrag;
+				System.out.println("CHANGE: " + diff1);
+			}
 		
 	}
 
