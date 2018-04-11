@@ -12,7 +12,8 @@ public class Level1 {
 			muenzen[m] = Integer.parseInt(args[offset+m]);
 		}
 
-		int geldEinwerfen;
+		
+		
 		
 	}
 
